@@ -1,0 +1,20 @@
+Início
+
+	vetorA[] = new int[5]
+	vetorB[] = new int[5]
+	int x, c = 0
+	
+	PARA(x = 0; x<5 ; x++) 
+	    Escreva "Receber valor A" 
+	    Leia vetorA[x]
+	    Escreva "Receber valor B" 
+          Leia vetorB[x]
+	FIMPARA
+	
+	PARA(x = 1; x<5 ; x++)
+	    c = c + (vetorA[x] * vetorB[x])
+	FIMPARA
+
+	Mostrar "c"
+
+Fim
